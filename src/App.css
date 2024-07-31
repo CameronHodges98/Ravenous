@@ -1,12 +1,18 @@
 .App {
   text-align: center;
+  background-color: whitesmoke;
 }
 
 .App-header {
   background-color: #282c34;
-  padding: 20px;
-  color: white;
+  color: #007bff;
+  padding: 10px;
+  border-radius: 50px;
 }
+.App-header h1 {
+  text-decoration: underline 1.5px;
+}
+
 
 .App-businesses {
   display: flex;
