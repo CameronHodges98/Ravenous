@@ -2,7 +2,19 @@ import React from 'react';
 import { Card } from 'react-bootstrap';
 import './Business.css';
 
-const Business = ({ imageSrc, name, address, city, state, zipcode, category, rating, reviewCount }) => {
+const Business = ({ business }) => {
+  const {
+    imageSrc,
+    name,
+    address,
+    city,
+    state,
+    zipcode,
+    category,
+    rating,
+    reviewCount
+  } = business;
+
   return (
     <Card className="business-card">
       <Card.Img variant="top" src={imageSrc} alt={name} />
